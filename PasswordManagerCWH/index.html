@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassX - Your Personal Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>  
+        <div class="logo">PassX</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>Welcome to our password manager website! We're here to help you keep your online accounts secure and easily
+            accessible. With our user-friendly interface and robust encryption technology, you can store all your
+            passwords in one secure location, accessible only by you.</p>
+        <h2>Your Password<span id="alert">(copied!)</span></h2>
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+
+        </table>
+        <h2>Add a Password</h2>
+        <form action="/submit" method="post">
+            <label for="website">Website :</label>
+            <input type="text" id="website" name="website" required>
+            <br>
+            <label for="username">Username :</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="username">Password :</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

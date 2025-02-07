@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h2 {
+    margin: 23px 0;
+}
+
+nav {
+    background: #972ff3;
+    padding: 7px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    margin: 0 30px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+li:hover {
+    text-decoration: 2px solid underline;
+    cursor: pointer;
+
+}
+
+table,
+td,
+tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 15px;
+}
+
+th {
+    padding: 5px;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 25px auto;
+}
+
+.btn {
+    margin: 11px 0;
+    padding: 6px 20px;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnsm {
+    padding: 6px 20px;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+td {
+    position: relative;
+}
+
+td>img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+#alert{
+    display: none;
+}
