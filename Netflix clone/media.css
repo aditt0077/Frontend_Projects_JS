@@ -1,0 +1,32 @@
+@media screen and (max-width: 1000px) {
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .input {
+        padding: 16px 17px 16px 10px;
+    }
+
+    .btn {
+        margin: 0;
+        border: 1px solid #ffffff57;
+        padding: 4px 16px;
+    }
+
+    .btn-red {
+        padding: 16px 16px;
+        font-size: 14px;
+    }
+
+
+
+}

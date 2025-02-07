@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Montserrat:wght@300;400;500;600&family=Noto+Sans:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+.main {
+    height: 80vh;
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+
+}
+
+.sec-border {
+    width: 100vw;
+    border-bottom: 8px solid rgb(63, 63, 63);
+}
+
+.box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.66;
+    position: absolute;
+    top: 0;
+    background-color: black;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 78vw;
+    padding-top: 14px;
+    margin: auto;
+    justify-content: space-between;
+    height: 70px;
+}
+
+nav img {
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+.hero {
+    height: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+    gap: 15px;
+    padding: 0 30px;
+    text-align: center;
+
+}
+
+.hero> :first-child {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 47px;
+}
+
+.hero>:nth-child(2) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.hero> :nth-child(3) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.btn {
+    margin: 10px;
+    border: 1px solid #ffffff57;
+    padding: 4px 30px;
+    font-weight: bold;
+    color: #fff;
+    background: black;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.btn-red-sm {
+    border: none;
+    padding: 5px 10px;
+    background-color: red;
+
+}
+
+ .input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding: 16px 170px 16px 10px;
+    background: rgba(23, 23, 23, 0.2);
+    border: 1px solid #ffffff57;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.btn-red {
+    font-family: 'Montserrat', sans-serif;
+    background-color: red;
+    font-weight: bolder;
+    padding: 16px 36px;
+    border: none;
+    font-size: 20px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    position: relative;
+    width: 560px;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 21%;
+    left: 14%;
+}
+
+.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.faq {
+   margin: 10vh 0;
+}
+
+.faq h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.faqbox {
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: rgb(128 128 128 / 34%);
+    padding: 20px;
+    max-width: 65vw;
+    margin: 8px auto;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.faqbox:hover{
+    background-color: #414141;
+}
+
+.plus{
+    filter: invert(1);
+}
+
+#bottom-ready{
+    margin-top: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+footer{
+    height: 60vh;
+    max-width: 60vw;
+    color: #fff;
+    margin: auto;
+    padding: 15px;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    color: #fff;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer a{
+    color: #fff;
+    font-size: 14px;
+
+}
+
+footer .questions{
+    padding: 23px 0;
+}
+
+.last{
+    height: 10vh;
+    color: #fff;
+}
+
